@@ -20,5 +20,5 @@ jekins_config = {
 Build jenkins job from hubot
 
 ```
-@hubot build <job> <param>
+@hubot build foo param1 param2
 ```
