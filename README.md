@@ -9,7 +9,7 @@ jekins_config expects a JSON object structured like this
 jekins_config = {
   "foo": {
     "job": "build-foo",
-    "params": "param1,param2"
+    "params": "paramKey1,paramKey2"
   }
 }
 ```
@@ -20,5 +20,5 @@ jekins_config = {
 Build jenkins job from hubot
 
 ```
-@hubot build foo param1 param2
+@hubot build foo paramValue1 paramValue2
 ```
